@@ -3,15 +3,18 @@ This addon system works with all versions of the game.
 This addon system was written because the Xbox has a 61 DLC mission limit.
 
 ========================= Video Tutorial ============================
-youtube-link-here 
+
+https://youtu.be/H3sjM7bpXco
 
 ========================= Before adding =======================================
+
 Copy the files [mission.lvl, shell.lvl, core.lvl, ingame.lvl, common.lvl, ingame.lvl] to 
 a folder like 'Original_lvl/' at your game's '_LVL_XXX' level  (If you want to restore 
 back to the original version, you can just copy and paste theese back to their original 
 location). If you forget to do this setp, you can retrieve these from the game disc.
 
 ======================== Initial Setup ==============================
+
 1. Do the backup mentioned in the 'Before adding' section. 
 2. On your PC, create a folder for your mod workspace (this is meant to mirror the mod setup on your console).
      Something like 'Desktop\Xbox_mod_workspace'.
@@ -21,6 +24,7 @@ location). If you forget to do this setp, you can retrieve these from the game d
    installed already, install this package instead: <link to DLC package>) 
 
 ======================== Usage ========================
+
 1. Drop in the new mod folder to the 'addon' folder in your workspace
 2. Run 'MissionMerge.exe'  (this generates a 'mission.lvl' file placed at the base of your workspace folder)
 3. Copy the newly created 'mission.lvl' file to your device at '_LVL_XXX/mission.lvl' and synchronize the 
@@ -32,7 +36,9 @@ location). If you forget to do this setp, you can retrieve these from the game d
 
 
 More Details...
+
 ======================== Mod File structure =====================================
+
 The 'addon' folder is placed directly under the '_LVL_XXX' SWBFII folder.
 The 'addon' folders are named as follows:
 001
@@ -54,6 +60,7 @@ The structure should typically look something like (for a 'ABC' named mod in the
 	
 
 ======================= The 'MissionMerge.exe' program =============================
+
 The 'MissionMerge.exe' program combines the missions from the addons and the base game 
 into a single 'mission.lvl' file that the game loads and uses. Each time you drop in 
 an addon you should run this program. It is located at the same level as the addon folder.
@@ -61,6 +68,7 @@ an addon you should run this program. It is located at the same level as the add
 
 
 ======================== FAQ ========================
+
 Q: Why do I need to create a single 'mission.lvl' file for the mods?
 A: The 'mission.lvl' file is referenced and read by the game directly, we cannot specify a 
    different one in Lua.
