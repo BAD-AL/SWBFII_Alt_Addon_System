@@ -17,3 +17,5 @@ Adding a mod:
 2. Double-Click the 'MissionMerge.exe' program (in the addon folder )
    * This will process through the mod folders and create a 'mission.lvl' file that includes the stuff inside 'base.mission.lvl' and the missions from the mods mission.lvl files (this will be placed at the same level as the 'addon' folder, deploy this too).
 3. Deploy to device (if necessary)
+
+For more info see the Wiki here: https://github.com/BAD-AL/SWBFII_Alt_Addon_System/wiki
