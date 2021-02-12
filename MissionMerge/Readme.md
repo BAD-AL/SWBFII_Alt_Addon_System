@@ -70,36 +70,29 @@ an addon you should run this program. It is located at the same level as the add
 ======================== FAQ ========================
 
 Q: Why do I need to create a single 'mission.lvl' file for the mods?
-A: The 'mission.lvl' file is referenced and read by the game directly, we cannot specify a 
-   different one in Lua.
+ * A: The 'mission.lvl' file is referenced and read by the game directly, we cannot specify a different one in Lua.
    
 Q: Why do I need to replace 'shell.lvl'?
-A: The replacement 'shell.lvl' adds the functionality to process through all the addon 'addme' files
+ * A: The replacement 'shell.lvl' adds the functionality to process through all the addon 'addme' files
    in order to set up the menus. 
 
-Q: You say this addon system works for every version of the game, does that mean I can run PC mods 
-   on my PSP?
-A: No. the system works for every platform. But it does not make any mod work on any platform.
-   SWBFII mods are built for a specific platform (PC, XBOX, PS2/PSP).
+Q: You say this addon system works for every version of the game, does that mean I can run PC mods on my PSP?
+ * A: No. the system works for every platform. But it does not make any mod work on any platform. SWBFII mods are built for a specific platform (PC, XBOX, PS2/PSP).
 
 Q: Where can I learn to make Star Wars Battlefront II mods?
-A: gametoast.com ; here is the first forum post you should read http://gametoast.com/viewtopic.php?f=27&t=13806
+ * A: gametoast.com ; here is the first forum post you should read http://gametoast.com/viewtopic.php?f=27&t=13806
 
 Q: Is it harder to make console mods than PC mods?
-A: Yes, because the consoles have limited memory (64MB for Xbox; 32MB for PS2 & PSP)
+ * A: Yes, because the consoles have limited memory (64MB for Xbox; 32MB for PS2 & PSP)
 
 Q: If I remove a mod from the addon folder do I need to run 'MissionMerge.exe'?
-A: It's not typically necessary, but is a good practice. 
+ * A: It's not typically necessary, but is a good practice. 
 
 Q: Does this system work if I already have SWBFII DLC installed on my XBOX?
-A: Yes. But instead of replacing 'shell.lvl' you will need to install this DLC package:
-   <link to dlc package with addon support>
+ * A: Yes. But instead of replacing 'shell.lvl' you will need to install this DLC package: link_to_dlc_package_with_addon_support_TODO
 
 Q: For XBOX with DLC already installed, why is it different?
-A: Because the 'shell.lvl' file that the game uses is in the Update package in the
-   'TDATA' folder. And if we modify this, the DLC package will get blown away by the game
-   when it starts up. But we have this simple work around, so it's cool. 
+ * A: Because the 'shell.lvl' file that the game uses is in the Update package in the 'TDATA' folder. And if we modify this, the DLC package will get blown away by the game when it starts up. But we have this simple work around, so it's cool. 
    
 Q: Can I change the addon's folder name (like '004/' -> '040/')?
-A: No. The modder had to create the addon with the this file structure in mind and won't be able to reference
-   his files correctly if you change it.
+ * A: No. The modder had to create the addon with the this file structure in mind and won't be able to reference his files correctly if you change it.
