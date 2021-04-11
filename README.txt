@@ -19,3 +19,6 @@ Adding a mod:
 3. Deploy to device (if necessary)
 
 For more info see the Wiki here: https://github.com/BAD-AL/SWBFII_Alt_Addon_System/wiki
+
+YouTube Video of Alt Addon system with AnthonyBF2's PSP mod:
+https://youtu.be/HyGFpVQ9VHQ
